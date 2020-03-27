@@ -1,0 +1,30 @@
+{
+  "name": "test-lab",
+  "version": "1.0.0",
+  "description": "This is a mini full-stack JavaScript/jQuery testing lab, with add-ons",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vorSherer/Test-Lab.git"
+  },
+  "author": "Thomas Sherer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vorSherer/Test-Lab/issues"
+  },
+  "homepage": "https://github.com/vorSherer/Test-Lab#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.3",
+    "method-override": "^3.0.0",
+    "pg": "^7.18.2",
+    "superagent": "^5.2.2"
+  }
+}
